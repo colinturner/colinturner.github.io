@@ -3,14 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.14",
+    "@fortawesome/free-brands-svg-icons": "^5.7.1",
+    "@fortawesome/free-solid-svg-icons": "^5.7.1",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "deployment": "^0.2.3",
+    "gh-pages": "^2.0.1",
+    "github-username": "^4.1.0",
+    "node-sass": "^4.11.0",
+    "particles.js": "^2.0.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.2"
+    "react-particles-js": "^2.4.2",
+    "react-scripts": "3.1.2",
+    "react-tabs": "^3.0.0",
+    "react-tabs-navigation": "^0.4.4",
+    "react-typing-animation": "^1.6.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

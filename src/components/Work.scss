@@ -1,0 +1,25 @@
+@import "../style/variables";
+
+.dp-work {
+  .dp-cursor {
+    color: $purple;
+  }
+  @media screen and (min-width: $screen-sm-min) {
+    margin-top: 270px;
+  }
+}
+
+.dp-work-experience {
+  display: flex;
+  flex-wrap: wrap;
+
+  &-list {
+    animation: fade-in-left 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation-delay: 1s;
+
+    &.second-column {
+      animation-delay: 1.9s;
+      margin-top: 76px;
+    }
+  }
+}

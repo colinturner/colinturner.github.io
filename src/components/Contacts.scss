@@ -1,0 +1,33 @@
+.dp-contacts {
+  display: flex;
+}
+
+.dp-contact {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  display: flex;
+  flex-direction: row;
+
+  ul {
+    li {
+      a {
+        font-size: 30px;
+        color: #fff;
+        margin: 0 15px;
+
+        &:first-child {
+          margin-left: 0;
+        }
+
+        @media screen and (min-width: $screen-sm-min) {
+          font-size: 25px;
+        }
+
+        &:hover {
+          color: $purple;
+        }
+      }
+    }
+  }
+}

@@ -31,7 +31,7 @@ export default class Work extends Component {
               companyName="SuperAwesome"
               position="Full Stack Developer"
               location="London, UK"
-              description="Built an advertising marketplace that makes digital spaces safer for kids. Technologies include JavaScript, Angular 2+, AngularJS, Node.js, Ruby, PostgreSQL and MongoDB. REST API development. Agile environment. Partially remote team."
+              description="Built an advertising marketplace that makes digital spaces safer for kids. Technologies include TypeScript, Angular 2+, AngularJS, Node.js, Ruby, PostgreSQL and MongoDB. REST API development. Agile environment. Partially remote team."
             ></WorkItem>
 
             {/*UNSW*/}

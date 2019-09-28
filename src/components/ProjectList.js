@@ -10,8 +10,8 @@ export default class ProjectList extends Component {
       list: [
         {
           id: "1",
-          link: "https://snakk.org",
-          platform: "js",
+          link: "https://github.com/colinturner/norwegian-verbs",
+          platform: "github",
           text: {
             title: "Snakk",
             shortDescription: "Free language-learning web app",

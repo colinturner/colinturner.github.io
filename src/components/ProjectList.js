@@ -20,6 +20,16 @@ export default class ProjectList extends Component {
         },
         {
           id: "2",
+          link: "https://github.com/colinturner/email-validator",
+          platform: "github",
+          text: {
+            title: "Email Tomato",
+            shortDescription: "Email validator using the Kickbox API",
+            stack: "React"
+          }
+        },
+        {
+          id: "3",
           link: "https://github.com/Alicespyglass/middl",
           platform: "github",
           text: {

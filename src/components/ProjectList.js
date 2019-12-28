@@ -20,11 +20,11 @@ export default class ProjectList extends Component {
         },
         {
           id: "2",
-          link: "https://github.com/colinturner/email-validator",
+          link: "https://github.com/colinturner/scrabble-assist",
           platform: "github",
           text: {
-            title: "Email Tomato",
-            shortDescription: "Email validator using the Kickbox API",
+            title: "Scrabble Assist",
+            shortDescription: "Helps when words fail you",
             stack: "React"
           }
         },
@@ -36,6 +36,16 @@ export default class ProjectList extends Component {
             title: "Middl",
             shortDescription: "Find new venues to meet up with people halfway",
             stack: "React Native"
+          }
+        },
+        {
+          id: "4",
+          link: "https://github.com/colinturner/email-validator",
+          platform: "github",
+          text: {
+            title: "Email Tomato",
+            shortDescription: "Email validator using the Kickbox API",
+            stack: "React"
           }
         }
       ]

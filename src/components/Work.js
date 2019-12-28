@@ -16,6 +16,14 @@ export default class Work extends Component {
 
         <div className="dp-work-experience">
           <div className="dp-work-experience-list">
+            {/*NiceJob*/}
+            <WorkItem
+              era="2019 - present"
+              companyName="NiceJob"
+              position="Software Engineer"
+              location="Vancouver, CA"
+              description="Building software tools that help small and medium-sized businesses grow their online reputations without huge marketing budgets. Giving the little guy a leg-up."
+            ></WorkItem>
             {/*PathFactory*/}
             <WorkItem
               era="2018 - 2019"

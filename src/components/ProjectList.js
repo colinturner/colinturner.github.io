@@ -10,7 +10,7 @@ export default class ProjectList extends Component {
       list: [
         {
           id: "1",
-          link: "https://github.com/colinturner/norwegian-verbs",
+          link: "https://github.com/colinturner/snakk",
           platform: "github",
           text: {
             title: "Snakk",
@@ -39,12 +39,12 @@ export default class ProjectList extends Component {
           }
         },
         {
-          id: "4",
-          link: "https://github.com/colinturner/email-validator",
+          id: "5",
+          link: "https://github.com/colinturner/currency-converter",
           platform: "github",
           text: {
-            title: "Email Tomato",
-            shortDescription: "Email validator using the Kickbox API",
+            title: "Currency Converter",
+            shortDescription: "Convert amounts between foreign currencies",
             stack: "React"
           }
         }

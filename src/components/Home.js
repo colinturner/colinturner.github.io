@@ -6,7 +6,7 @@ export default class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      target: "_blank"
+      target: "_blank",
     };
   }
 
@@ -31,13 +31,14 @@ export default class Home extends Component {
             <Typing.Delay ms={750} />
             <Typing.Backspace count={4} />
             young, <br />
-            Specialities: <strong>React, Rails, Angular, Node.js</strong>
+            Specialities:{" "}
+            <strong>React, TypeScript, Node.js, Severless computing</strong>
           </h3>
           <Typing.Delay ms={750} />
           <h1>Full Stack Developer</h1>
           <Typing.Delay ms={750} />
           <p>
-            in <strong>Vancouver, BC</strong>
+            in <strong>Oslo, Norway</strong>
           </p>
         </Typing>
         <Contacts />

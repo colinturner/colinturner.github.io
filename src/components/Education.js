@@ -48,14 +48,13 @@ export default class Education extends Component {
                 <span className="c-y">const </span>
                 <span className="c-b">frontend</span> = [
                 <span className="c-g">“react”</span>,{" "}
-                <span className="c-g">“angular”</span>,{" "}
-                <span className="c-g">"vue"</span>];
+                <span className="c-g">“angular”</span>];
                 <br />
                 <span className="c-y">const </span>
                 <span className="c-b">backend</span> = [
+                <span className="c-g">“node.js”</span>,{" "}
                 <span className="c-g">“ruby”</span>,{" "}
-                <span className="c-g">“rails”</span>,{" "}
-                <span className="c-g">“node.js”</span>];
+                <span className="c-g">“rails”</span>];
                 <br />
                 <span className="c-y">const </span>
                 <span className="c-b">database</span> = [
